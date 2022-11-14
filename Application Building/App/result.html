@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="result.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <img class="bg" src="img1.jpg" />
+      </div>
+      <div class="nav"></div>
+      <div class="n">
+        <a>Home</a>
+        <a>Results</a>
+      </div>
+    <div class="form">
+        <form action = "http://localhost:5000/pred" method = "post">
+            
+            <span>Enter homepage_featured</span><input type="text" name="homepage_featured"/>
+            <br/>
+            <span>Enter email_for_promotions</span><input type="text" name="email_for_promotions"/>
+            <br/>
+            <span>Enter op_area</span><input type="text" name="op_area"/>
+            <br/>
+            <span>Enter food_type</span><input type="text" name="food_type"/>
+            <br/>
+            <span>Enter city_code</span><input type="text" name="city_code"/>
+            <br/>
+            <span>Enter region_code</span><input type="text" name="region_code"/>
+            <br/>
+            <span>Enter category</span><input type="text" name="category"/>
+            <br/>
+        
+            <br/>
+            <input type="submit" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+
+.bg{
+    width:100vw;
+   height: 25vw;;
+    position:absolute;
+}
+.nav{
+    width:100vw;
+    height:50px;
+    position:absolute;
+    background-color: grey;
+    z-index:99;
+    opacity:0.6;
+    
+}
+
+.n{
+    right:0;
+    position:absolute;
+    z-index:99999;
+}
+a{
+    margin:30px;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:red;
+}
+
+.form{
+    position:absolute;
+    margin-top: 25vw;;
+    margin-left:30%;
+}
